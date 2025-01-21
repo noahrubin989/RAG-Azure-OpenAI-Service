@@ -13,14 +13,14 @@ def setup_oai_client() -> Tuple[AzureOpenAI, str]:
     Sets up an Azure OpenAI client using environment variables.
 
     Returns:
-        Tuple[AzureOpenAI, str]: A tuple containing the initialized Azure OpenAI client
+        Tuple[AzureOpenAI, str]: A tuple containing the initialised Azure OpenAI client
         and the Azure OpenAI deployment name.
     """
     azure_oai_endpoint = os.getenv("AZURE_OAI_ENDPOINT")
     azure_oai_key = os.getenv("AZURE_OAI_KEY")
     azure_oai_deployment = os.getenv("AZURE_OAI_DEPLOYMENT")
     
-    # Initialize the Azure OpenAI client
+    # Initialise the Azure OpenAI client
     client = AzureOpenAI(
         base_url=f"{azure_oai_endpoint}/openai/deployments/{azure_oai_deployment}/extensions",
         api_key=azure_oai_key,
