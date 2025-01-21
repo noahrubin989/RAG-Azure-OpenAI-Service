@@ -12,8 +12,6 @@ Azure OpenAI connects pre-trained models to your data sources to enabkle RAG and
 5. Send entire prompt to Azure OpenAI.
 6. Return response and data reference (if any) to the user.
 
-By default, Azure OpenAI on your data encourages, but doesn't require, the model to respond only using your data. This setting can be unselected when connecting your data, which may result in the model choosing to use its pretrained knowledge over your data.
-
 The data that had been added to the RAG solution is for a fictional travel company called "Margie’s Travel Agency" and has travel brochures for a variety of cities including:
 * Dubai - `Dubai Brochure.pdf`
 * Las Vegas - `Las Vegas.pdf` 
