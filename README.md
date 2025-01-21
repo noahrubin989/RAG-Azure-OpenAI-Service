@@ -22,7 +22,7 @@ The data that had been added to the RAG solution is for a fictional travel compa
 _Note: The data used in `rag_with_your_data.py` resides in a personal blob storage container, but has been placed in a `data` folder for context on the data that was used._
 
 ## Configuration
-To run this script you first need: 
+To run this script you first need to deploy: 
 * An Azure OpenAI resource.
 * An Azure AI Search resource.
 * An Azure Storage Account resource
