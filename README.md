@@ -3,7 +3,7 @@
 ## Overview
 This repository details how GPT models and embedding models can be combined together to facillitate RAG workloads to augment prompts and draw meaningful information from your data sources. 
 
-Azure OpenAI connects pre-trained models to your data sources to enabkle RAG ands utilises the search ability of Azure AI Search to add the relevant data chunks to the prompt. Once your data is in an AI Search index, Azure OpenAI on your data goes through the following steps:
+Azure OpenAI connects pre-trained models to your data sources to enable RAG ands utilises the search ability of Azure AI Search to add the relevant data chunks to the prompt. Once your data is in an AI Search index, Azure OpenAI on your data goes through the following steps:
 
 1. Receive user prompt.
 2. Determine relevant content and intent of the prompt.
